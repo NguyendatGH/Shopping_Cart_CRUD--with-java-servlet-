@@ -16,7 +16,7 @@ public class ProductDAO {
     public List<Product> getAllProducts() {
         List<Product> products = new ArrayList<>();
         try {
-            String query = "SELECT * FROM ProductList";
+            String query = "SELECT * FROM ProductList";  //your query with db
             conn = new DBContext().getConnection();
             ps = conn.prepareStatement(query);
             rs = ps.executeQuery();

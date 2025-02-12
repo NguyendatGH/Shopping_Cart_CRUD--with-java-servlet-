@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Product
-    Created on : Feb 9, 2025, 10:24:28 PM
-    Author     : rio
---%>
+
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 

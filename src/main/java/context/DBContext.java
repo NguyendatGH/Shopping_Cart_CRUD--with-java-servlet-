@@ -5,11 +5,11 @@ import java.sql.DriverManager;
 
 public class DBContext {
     private final String serverName = "localhost"; 
-    private final String dbName = "ShoppingCartDB";
+    private final String dbName = "xxxx"; //your databaseName
     private final String portNumber = "1433";
     private final String instance = "";
-    private final String userID = "sa";
-    private final String passwords = "admin2404";
+    private final String userID = "sa"; //your user role
+    private final String passwords = "xxxx"; //your local user password
 
     public Connection getConnection() throws Exception {
         String url;
